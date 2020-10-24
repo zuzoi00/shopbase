@@ -1,0 +1,41 @@
+{
+    "data":
+    [
+        {
+            "id": "1",
+            "slug": "",
+            "name": "collection1",
+            "description": "",
+            "images": [],
+            "product_type":"spring",
+            "vendor":"Top"
+        },
+        {
+            "id": "2",
+            "slug": "",
+            "name": "collection2",
+            "description": "",
+            "images": [],
+            "product_type":"summer",
+            "vendor":"Jung"
+        },
+        {
+            "id": "3",
+            "slug": "",
+            "name": "collection3",
+            "description": "",
+            "images": [],
+            "product_type":"autumn",
+            "vendor":"Mid"
+        },
+        {
+            "id": "4",
+            "slug": "",
+            "name": "collection4",
+            "description": "",
+            "images": [],
+            "product_type":"winter",
+            "vendor":"Bottom"
+        }
+    ]
+}

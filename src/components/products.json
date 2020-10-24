@@ -1,0 +1,136 @@
+{
+    "data":
+        [
+            {
+                "id": "1",
+                "slug": "product-1",
+                "name": "Little One",
+                "description": "Num 1",
+                "option1": "",
+                "option2": "ColorSize",
+                "option3": "null",
+                "variants": [
+                    {
+                        "id": "1",
+                        "sku": "product-1-black-l",
+                        "name": "product",
+                        "option1": "Black",
+                        "option2": "L",
+                        "option3": "null",
+                        "price": "20",
+                        "compare_price": "25",
+                        "quantity": "3",
+                        "images": []
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "@/assets/logo.png"
+                    },
+                    {
+                        "url": "@/assets/1.jpg"
+                    },
+                    {
+                        "url": "@/assets/2.jpg"
+                    },
+                    {
+                        "url": "@/assets/3.jpg"
+                    },
+                    {
+                        "url": "@/assets/4.jpg"
+                    },
+                    {
+                        "url": "@/assets/5.jpg"
+                    },
+                    {
+                        "url": "@/assets/6.jpg"
+                    }
+                    
+                ],
+                "collections": [
+                    {
+                        "id": "1",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    },
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": ""
+            },
+            {
+                "id": "",
+                "slug": "product-1",
+                "name": "Little Two",
+                "description": "Num 2",
+                "images": [
+                    {
+                        "url": "@/assets/7.jpg"
+                    },
+                    {
+                        "url": "@/assets/8.jpg"
+                    },
+                    {
+                        "url": "@/assets/9.jpg"
+                    },
+                    {
+                        "url": "@/assets/10.jpg"
+                    },
+                    {
+                        "url": "@/assets/11.jpg"
+                    }
+                ],
+                "collections": [
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": ""
+            },
+            {
+                "id": "",
+                "slug": "product-1",
+                "name": "product 1",
+                "description": "description",
+                "images": [
+                    {
+                        "url": "@/assets/12.jpg"
+                    },
+                    {
+                        "url": "@/assets/13.jpg"
+                    },
+                    {
+                        "url": "@/assets/14.jpg"
+                    },
+                    {
+                        "url": "@/assets/15.jpg"
+                    },
+                    {
+                        "url": "@/assets/16.jpg"
+                    }
+                ],
+                "collections": [
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": "a"
+            }
+            
+        ]
+}

@@ -1,0 +1,101 @@
+{
+    "data":
+        [
+            {
+                "id": "1",
+                "slug": "product-1",
+                "name": "Little Black",
+                "description": "description 2",
+                "option1": "",
+                "option2": "ColorSize",
+                "option3": "null",
+                "variants": [
+                    {
+                        "id": "1",
+                        "sku": "product-1-black-l",
+                        "name": "product",
+                        "option1": "Black",
+                        "option2": "L",
+                        "option3": "null",
+                        "price": "20",
+                        "compare_price": "25",
+                        "quantity": "3",
+                        "images": []
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://"
+                    },
+                    {
+                        "url": "https://"
+                    }
+                ],
+                "collections": [
+                    {
+                        "id": "1",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    },
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": "Apple"
+            },
+            {
+                "id": "",
+                "slug": "product-2",
+                "name": "product 2",
+                "description": "description",
+                "images": [
+                    {
+                        "url": "https://"
+                    },
+                    {
+                        "url": "https://"
+                    }
+                ],
+                "collections": [
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": ""
+            },
+            {
+                "id": "",
+                "slug": "product-3",
+                "name": "product 3",
+                "description": "description",
+                "images": [
+                    {
+                        "url": "https://"
+                    },
+                    {
+                        "url": "https://"
+                    }
+                ],
+                "collections": [
+                    {
+                        "id": "2",
+                        "slug": "",
+                        "name": "",
+                        "description": "",
+                        "images": []
+                    }
+                ],
+                "vendor": "a"
+            }
+        ]
+}
