@@ -4,7 +4,7 @@
             {
                 "id": "1",
                 "slug": "product-1",
-                "name": "Little One",
+                "name": "Size NA",
                 "description": "Num 1",
                 "option1": "",
                 "option2": "ColorSize",
@@ -63,13 +63,13 @@
                         "images": []
                     }
                 ],
-                "vendor": ""
+                "vendor": "NA"
             },
             {
                 "id": "",
                 "slug": "product-1",
                 "name": "Little Two",
-                "description": "Num 2",
+                "description": "Size Asean",
                 "images": [
                     {
                         "url": "@/assets/7.jpg"
@@ -96,13 +96,13 @@
                         "images": []
                     }
                 ],
-                "vendor": ""
+                "vendor": "Asean"
             },
             {
                 "id": "",
                 "slug": "product-1",
-                "name": "product 1",
-                "description": "description",
+                "name": "Bigger 1",
+                "description": "Size ",
                 "images": [
                     {
                         "url": "@/assets/12.jpg"
@@ -129,7 +129,7 @@
                         "images": []
                     }
                 ],
-                "vendor": "a"
+                "vendor": "EU"
             }
             
         ]

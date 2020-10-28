@@ -129,13 +129,13 @@
         <div class="tensp">shoe</div>
         <div class="giatien">10 000</div>
         <div class="quantity" style="display: flex">
-          <button @click="quantity -= 1" class="bt">
+          <button @click="quantity > 1 ? quantity -= 1 : 1" class="bt">
             <i class="fas fa-minus" style="font-size: 15px"></i>
           </button>
           <input
             class="inp"
             type="number"
-            :value="quantity"
+            v-model="quantity"
             min="1"
             max="Infinity"
           />

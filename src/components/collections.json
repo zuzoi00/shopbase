@@ -4,7 +4,7 @@
         {
             "id": "1",
             "slug": "",
-            "name": "collection1",
+            "name": "Collection1",
             "description": "",
             "images": [],
             "product_type":"spring",
@@ -13,7 +13,7 @@
         {
             "id": "2",
             "slug": "",
-            "name": "collection2",
+            "name": "Collection2",
             "description": "",
             "images": [],
             "product_type":"summer",
@@ -22,7 +22,7 @@
         {
             "id": "3",
             "slug": "",
-            "name": "collection3",
+            "name": "Collection3",
             "description": "",
             "images": [],
             "product_type":"autumn",
@@ -31,7 +31,7 @@
         {
             "id": "4",
             "slug": "",
-            "name": "collection4",
+            "name": "Collection4",
             "description": "",
             "images": [],
             "product_type":"winter",

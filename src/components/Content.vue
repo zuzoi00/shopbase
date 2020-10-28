@@ -49,7 +49,7 @@
             >
               <td class="col-sm-1 cb"><input type="checkbox" :checked="clicked" /></td>
               <td class="col-sm-1">
-                <img style="display:inline-block" src="@/assets/logo.png" alt="" />
+                <img style="display:inline-block" :src="product.images[0].url" alt="" />
               </td>
               <td class="col-sm-4 name">
                 {{ product.name }}
@@ -58,7 +58,7 @@
                 </router-link>
               </td>
               <td class="col-sm-3">{{ product.description }}</td>
-              <td class="col-sm-3">{{ product.description }}</td>
+              <td class="col-sm-3">{{ product.vendor }}</td>
             </tr>
           </tbody>
         </table>
