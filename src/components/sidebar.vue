@@ -7,7 +7,15 @@
         <div class="cont1">
             <div class="content">Home</div>
             <div class="content">Order</div>
-            <div class="content">Products</div>
+            <div class="content" @click="show = !show">Product</div>
+              <template v-if="show">
+                <div class="content1">All products</div>
+                <div class="content1">Inventory</div>
+                <div class="content1">Collections</div>
+                <div class="content1">Product feeds</div>
+                <div class="content1">Bulk updates</div>
+              </template>
+            
             <div class="content">Analytics</div>
             <div class="content">Discount</div>
             <div class="content">Customer</div>
@@ -24,7 +32,11 @@
 
 
 export default {
-
+  data(){
+    return {
+      show: false,
+    }
+  }
 }
 // Delete product
     // let id = 1;
@@ -52,18 +64,33 @@ export default {
 }
 
 .cont1 {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column; */
     height: 400px;
     width: 150px;
     background-color: white;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .cont1 .content {
   text-align: left;
-  padding-left: 30px;
+  padding-left: 20px;
+  margin: 13px 0;
+  font-weight: 600;
 }
+
+.cont1 .content1 {
+  text-align: left;
+  padding-left: 30px;
+  margin: 9px 0;
+}
+
+.cont1 .content1:hover {
+  color: blue;
+}
+
 .container {
   margin: 0;
   padding: 0;

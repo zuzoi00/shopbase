@@ -1,6 +1,6 @@
 <template>
   <div class="ap-adimg">
-        <div class="ap-adimg1">Image</div>
+        <div class="ap-adimg1">Image ({{ number }} / 120)</div>
         <div class="ap-adimg2">Add image from URL</div>
         <div class="ap-adimg3" @click="InputImg">Add image</div>
         <input
@@ -31,7 +31,8 @@ export default {
     return {
       userInput: {
         images: [],
-      }
+      },
+      number: 0
     };
   },
   methods: {
@@ -42,6 +43,7 @@ export default {
     },
     deleteImg(index) {
       this.userInput.images.splice(index, 1);
+      this.number = this.userInput.images.length;
     },
     changeLayout(event) {
       const file = event.target.files; // event.target.files đây là đường dẫn tới file ảnh(cả cụm 0:File ... luôn)
@@ -51,6 +53,7 @@ export default {
         // bởi url trong file products.json lưu ở dạng images.url nên ở đây cũng làm cho đồng bộ
         obj.url = URL.createObjectURL(file[n]);
         this.userInput.images.push(obj);
+        this.number = this.userInput.images.length;
       }
     }
   }
@@ -73,7 +76,7 @@ export default {
 .ap-adimg2 {
   display: inline-block;
   color: blue;
-  margin-left: 340px;
+  margin-left: 233px;
 }
 .ap-adimg3 {
   color: blue;
